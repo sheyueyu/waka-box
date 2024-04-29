@@ -8,7 +8,7 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
       - name: Update gist
         uses: sheyueyu/waka-box@master
         env:
